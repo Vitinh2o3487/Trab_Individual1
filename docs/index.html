@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Corrida </div>
+
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é o seu peso (kg)? Ex: 70" type="number" id='peso' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é a distância percorrida (Km)?"  type="number" id='distancia'required="required">
+        </div>
+
+         <div class="input">
+            <input  placeholder="(horas)"  type="number" id='horas'required="required">
+            <input  placeholder="(minutos)"  type="number" id='minutos'required="required">
+            <input  placeholder="(segundos)"  type="number" id='segundos'required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>  
